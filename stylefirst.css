@@ -246,15 +246,7 @@ to{
           opacity: 0;
       }
   }
-  @-webkit-keyframes slowFade {
-      25% {
-          opacity: 1;
-          transform: scale(1) rotate(0);
-      }
-      40% {
-          opacity: 0;
-      }
-  }
+
 .parent{
     margin-top: 50px;
     margin-left: 500px;
@@ -285,12 +277,12 @@ to{
     transform: scale(1.1);
 }
 
-@keyframes pulse{
+/* @keyframes pulse{
 	0%{background-image: url('img/a.jpg');}
 	30%{background-image: url('img/b.jpg');}
 	65%{background-image: url('img/c.jpg');}
 	100%{background-image: url('img/d.jpg');}
-}
+} */
 
 footer{
     background: black;
